@@ -39,6 +39,5 @@ body:
     attributes:
       label: Screenshots or Videos
       description: Drag and drop screenshots or files here to help explain your problem.
-      accept: ".png,.jpg,.jpeg,.gif,.webp,.mp4,.mov"
     validations:
       required: false
