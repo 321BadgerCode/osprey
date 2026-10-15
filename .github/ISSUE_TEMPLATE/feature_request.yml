@@ -10,7 +10,7 @@ body:
       description: Short description of the feature you're requesting.
       placeholder: "Add dark mode to the web UI."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: motivation

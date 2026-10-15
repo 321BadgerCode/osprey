@@ -10,7 +10,7 @@ body:
       description: Short description of the chore you're requesting.
       placeholder: "Update the UI."
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: motivation
