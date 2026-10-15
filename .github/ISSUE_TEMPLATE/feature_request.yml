@@ -13,10 +13,10 @@ body:
       required: false
 
   - type: textarea
-    id: motivation
+    id: how
     attributes:
-      label: Why is this feature needed?
-      description: Describe the problem or opportunity. Why do you need this feature?
-      placeholder: "I often work in low light and the white UI strains my eyes."
+      label: How would this feature be implemented?
+      description: Describe how the feature would be implemented into the repository.
+      placeholder: "Add a UI toggle switch that alters the UI color elements on the web page."
     validations:
       required: false
