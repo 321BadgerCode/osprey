@@ -1,0 +1,22 @@
+name: 🚀 Feature Request
+description: Suggest a new idea or enhancement for the project.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: Short description of the feature you're requesting.
+      placeholder: "Add dark mode to the web UI."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this feature needed?
+      description: Describe the problem or opportunity. Why do you need this feature?
+      placeholder: "I often work in low light and the white UI strains my eyes."
+    validations:
+      required: false

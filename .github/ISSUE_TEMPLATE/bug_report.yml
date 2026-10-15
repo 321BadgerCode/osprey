@@ -1,0 +1,44 @@
+name: 🐛 Bug Report
+description: Report a bug in the project.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Brief Summary
+      description: Short summary of the bug.
+      placeholder: "e.g. App crashes when clicking the Save button."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: What did you do to trigger the bug?
+      placeholder: |
+        1. Open the app.
+        2. Go to the Settings page.
+        3. Click the Save button.
+        4. App crashes.
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: "e.g. Settings should save successfully without crashing."
+    validations:
+      required: false
+
+  - type: upload
+    id: media
+    attributes:
+      label: Screenshots or Videos
+      description: Drag and drop screenshots or files here to help explain your problem.
+      accept: ".png,.jpg,.jpeg,.gif,.webp,.mp4,.mov"
+    validations:
+      required: false
